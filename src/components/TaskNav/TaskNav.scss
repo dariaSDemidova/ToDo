@@ -1,0 +1,26 @@
+.task-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    list-style: none;
+    color: #ADAAAF;
+
+    &__item {
+        cursor: pointer;
+        padding: 10px 20px;
+        &:hover{
+            color: #FBFBFB;
+            border-bottom: #3E75C7;
+        }
+        &.active {
+            color: #FBFBFB;
+            border-bottom: 2px solid #3E75C7;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .task-nav {
+        flex-direction: column;
+    }
+}

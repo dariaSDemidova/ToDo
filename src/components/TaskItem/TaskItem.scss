@@ -1,0 +1,32 @@
+.task-list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+
+.task-item {
+    border: 2px solid #C0B6B9;
+    border-radius: 0 15px 0 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FBFBFB;
+    font-size: 18px;
+    &__buttons {
+        display: flex;
+        gap: 20px;
+    }
+    &__button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        & img {
+            width: 20px;
+            height: auto;
+            overflow: hidden;
+        }
+    }
+}
