@@ -1,3 +1,33 @@
+# To-Do List
+
+Это приложение To-Do List, разработанное с использованием React и Redux-toolkit. Оно предоставляет базовые функции для управления задачами, а также поддерживает несколько категорий задач, таких как текущие, выполненные и удаленные.
+
+## Функционал
+
+- **Добавление задачи**: Вы можете добавлять новые задачи.
+- **Удаление задачи**: Каждую задачу можно удалить.
+- **Удаление всех задач**: В приложении есть возможность удалить все задачи за один раз.
+- **Категории задач**:
+  - **Текущие дела**: Задачи, которые еще не выполнены.
+  - **Все дела**: Все задачи, включая выполненные и удаленные.
+  - **Выполненные дела**: Задачи, которые были отмечены как выполненные.
+  - **Корзина**: Удаленные задачи, которые можно окончательно удалить.
+
+## Авторизация:
+- Логин: admin, пароль: admin.
+- После авторизации данные сохраняются и не сбрасываются при перезагрузке страницы.
+
+## Просмотр сайта
+
+Нажмите на изображение ниже, чтобы посмотреть наш сайт! Или используйте [ссылку](https://dariasdemidova.github.io/ToDo/).
+[<img width="1440" alt="Снимок экрана 2024-11-14 в 16 49 47" src="https://github.com/user-attachments/assets/a346d4c4-abd6-48f2-bf9c-7846130a1f0e">](https://dariasdemidova.github.io/ToDo/)
+
+## Используемые технологии
+
+![React](https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Redux](https://img.shields.io/badge/redux%20-%23593d88.svg?&style=for-the-badge&logo=redux&logoColor=white)
+![Typescript](https://img.shields.io/badge/typescript%20-%23007ACC.svg?&style=for-the-badge&logo=typescript&logoColor=white)
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
